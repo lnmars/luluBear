@@ -1,0 +1,31 @@
+{
+  "name": "orm-project",
+  "version": "0.0.1",
+  "description": "Online review-management tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnmars/luluBear.git"
+  },
+  "keywords": [
+    "reputation",
+    "management",
+    "online",
+    "reviews",
+    "reviews"
+  ],
+  "author": "Ellen Marshall",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lnmars/luluBear/issues"
+  },
+  "homepage": "https://github.com/lnmars/luluBear#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jquery": "^3.1.1"
+  }
+}
