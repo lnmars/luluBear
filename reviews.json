@@ -1,111 +1,113 @@
-{
-  "review": {
-    "id": 6,
-    "reviewer": {
-      "id": 123,
-      "name": "Jason M."
-    },
-    "source": "Yelp",
-    "rating": 4,
-    "text": "Blue Hill is every bit as great as it is said to be. The cooking is superb and the quiet, non-pretentious atmosphere allows its guests to enjoy one another's company as much as their meals. Simplicity is startling here. Why 4 stars and not 5? It may have been an off night or possibly new staff in place, but the service was not as well coordinated for an establishment of this reputation. There were slight mistakes with the orders / food preferences and the staff didn't communicate with each other as well as they could have. This is not a big deal and doesn't detract from how great Blue Hill is, but service was not as seamless as I expected or as in other restaurants of the same caliber... I look forward to returning.",
-    "date-created": "2017-02-28",
-    "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=fL9VGJuho0TZmrasePIHiA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-  }
-}
+[
+  {
+    "review": {
+      "id": 1,
+      "reviewer": {
+        "id": 842,
+        "name": "Shaunn M."
+      },
+      "source": "Yelp",
+      "rating": 5,
+      "text": "Food and service are amazing.\nRachel is the best bartender/server I 've had in an nyc restaurant. You won't regret this stop.",
+      "dateCreated": "2017-02-01",
+      "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=XaLf1UbxfVkA0oHwdm__VQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+      "replied": false
+    }
+  },
 
-{
-  "review": {
-    "id": 5,
-    "reviewer": {
-      "id": 456,
-      "name": "Farzad S."
-    },
-    "source": "Yelp",
-    "rating": 4,
-    "text": "Extremely upscale/fancy spot filled with males who are desperately attempting to impress their potential mates. While the food was memorably delicious, you will generally struggle to identify your courses, unless you're a legitimate food connoisseur. The staff was knowledgeable and well-versed, if not a touch pretentious.",
-    "date-created": "2017-02-23",
-    "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=Mw2-0SJiIoGX_IvRh0DIAw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-  }
-}
+  {
+    "review": {
+      "id": 2,
+      "reviewer": {
+        "id": 456,
+        "name": "Farzad S."
+      },
+      "source": "Yelp",
+      "rating": 4,
+      "text": "Extremely upscale/fancy spot filled with males who are desperately attempting to impress their potential mates. While the food was memorably delicious, you will generally struggle to identify your courses, unless you're a legitimate food connoisseur. The staff was knowledgeable and well-versed, if not a touch pretentious.",
+      "dateCreated": "2017-02-23",
+      "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=Mw2-0SJiIoGX_IvRh0DIAw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+      "replied": false
+    }
+  },
 
-{
-  "review": {
-    "id": 4,
-    "reviewer": {
-      "id": 1234,
-      "name": "Ana Benedict"
-    },
-    "source": "Google",
-    "rating": 5,
-    "text": "Very special restaurant, service was great and the food is incredibly delicious!",
-    "date-created": "2017-02-21",
-    "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=blue+hill+restaurant&*&lrd=0x89c259914454d08b:0xdb5d5d0c22afca0d,1,"
-  }
-}
+  {
+    "review": {
+      "id": 3,
+      "reviewer": {
+        "id": 123,
+        "name": "Jason M."
+      },
+      "source": "Yelp",
+      "rating": 4,
+      "text": "Blue Hill is every bit as great as it is said to be. The cooking is superb and the quiet, non-pretentious atmosphere allows its guests to enjoy one another's company as much as their meals. Simplicity is startling here. Why 4 stars and not 5? It may have been an off night or possibly new staff in place, but the service was not as well coordinated for an establishment of this reputation. There were slight mistakes with the orders / food preferences and the staff didn't communicate with each other as well as they could have. This is not a big deal and doesn't detract from how great Blue Hill is, but service was not as seamless as I expected or as in other restaurants of the same caliber... I look forward to returning.",
+      "dateCreated": "2017-02-28",
+      "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=fL9VGJuho0TZmrasePIHiA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+      "replied": false
+    }
+  },
 
-{
-  "review": {
-    "id": 4,
-    "reviewer": {
-      "id": 1199,
-      "name": "Ana Benedict"
-    },
-    "source": "Google",
-    "rating": 5,
-    "text": "Great food. And customer service. Just make sure you have cash. No cards accepted.",
-    "date-created": "2017-02-21",
-    "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=blue+hill+restaurant&*&lrd=0x89c259914454d08b:0xdb5d5d0c22afca0d,1,"
-  }
-}
+  {
+    "review": {
+      "id": 4,
+      "reviewer": {
+        "id": 1234,
+        "name": "Ana Benedict"
+      },
+      "source": "Google",
+      "rating": 5,
+      "text": "Very special restaurant, service was great and the food is incredibly delicious!",
+      "dateCreated": "2017-02-21",
+      "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=blue+hill+restaurant&*&lrd=0x89c259914454d08b:0xdb5d5d0c22afca0d,1,",
+      "replied": false
+    }
+  },
 
-{
-  "review": {
-    "id": 3,
-    "reviewer": {
-      "id": 789,
-      "name": "Sherry F."
-    },
-    "source": "Yelp",
-    "rating": 3,
-    "text": "I have to admit, I had high expectations and Blue Hill disappointed me. We had dinner here in early December 2016. We also just came back from a 12 day trip in Paris, Amsterdam & Berlin, where the food were all fantastic. My husband & I each had the tasting menu and felt underwhelmed. It also felt a bit pretentious and not so farm to table. The waiter was friendly but the hostess & the rest of the wait staff were not so friendly. 
+  {
+    "review": {
+      "id": 5,
+      "reviewer": {
+        "id": 1199,
+        "name": "Ana Benedict"
+      },
+      "source": "Google",
+      "rating": 5,
+      "text": "Great food. And customer service. Just make sure you have cash. No cards accepted.",
+      "dateCreated": "2017-02-21",
+      "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=blue+hill+restaurant&*&lrd=0x89c259914454d08b:0xdb5d5d0c22afca0d,1,",
+      "replied": false
+    }
+  },
 
-We left hungry, either the portions were too small or the dishes were not filling enough. And I'm a light eater, I usually get full easily. I really wanted to love Blue Hill but was disappointed. Overall it was just OK! Nothing special.",
-    "date-created": "2017-02-19",
-    "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=GFo4FeT-KVw5nZjzd90RDg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-  }
-}
+  {
+    "review": {
+      "id": 6,
+      "reviewer": {
+        "id": 789,
+        "name": "Sherry F."
+      },
+      "source": "Yelp",
+      "rating": 3,
+      "text": "I have to admit, I had high expectations and Blue Hill disappointed me. We had dinner here in early December 2016. We also just came back from a 12 day trip in Paris, Amsterdam & Berlin, where the food were all fantastic. My husband & I each had the tasting menu and felt underwhelmed. It also felt a bit pretentious and not so farm to table. The waiter was friendly but the hostess & the rest of the wait staff were not so friendly. \nWe left hungry, either the portions were too small or the dishes were not filling enough.And I'm a light eater, I usually get full easily. I really wanted to love Blue Hill but was disappointed. Overall it was just OK! Nothing special.",
+      "dateCreated": "2017-02-19",
+      "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=GFo4FeT-KVw5nZjzd90RDg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+      "replied": false
+    }
+  },
 
-{
-  "review": {
-    "id": 2,
-    "reviewer": {
-      "id": 321,
-      "name": "Arun P."
-    },
-    "source": "Yelp",
-    "rating": 1,
-    "text": "This review is solely for the staff at the reservation desk. So my girlfriend called up well in advance of our target date for a reservation and told that reservations were taken 28 days before hand over the phone and that online reservations open 30 days later at midnight. So based on the information provided by the restaurant we dutifully called. No response for 1/2 hour. I gave up but she tried and tried. Finally, she was put on hold (for awhile) then once she got someone on the phone she was told that the only reservations left were 10 and 10:30. When she inquired how this was possible, she was told that reservations opened at midnight. Wtf. 
-    The staff offered to put her on the waitlist but then became deaf and failed to get her name so my girlfriend hung up.
-    So the question is whether this reservation desk is just incompetent or if they are just lying for the fun of it. Either way thanks for wasting our time.
-    Final note, if reservations all open up at midnight then why have people answer phones? Maybe this redundancy should be eliminated. Clearly they are not informed anyway.
-    Have a blessed day!",
-    "date-created": "2017-02-04",
-    "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=leuSueQ2RTDuBw1k9GjKIg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
+  {
+    "review": {
+      "id": 7,
+      "reviewer": {
+        "id": 321,
+        "name": "Arun P."
+      },
+      "source": "Yelp",
+      "rating": 1,
+      "text": "This review is solely for the staff at the reservation desk. So my girlfriend called up well in advance of our target date for a reservation and told that reservations were taken 28 days before hand over the phone and that online reservations open 30 days later at midnight. So based on the information provided by the restaurant we dutifully called. No response for 1/2 hour. I gave up but she tried and tried. Finally, she was put on hold (for awhile) then once she got someone on the phone she was told that the only reservations left were 10 and 10:30. When she inquired how this was possible, she was told that reservations opened at midnight. Wtf.\nThe staff offered to put her on the waitlist but then became deaf and failed toget her name so my girlfriend hung up.\nSo the question is whether this reservation desk is just incompetent or if they are just lying for the fun of it.Either way thanks for wasting our time.\nFinal note, if reservations all open up at midnight then why have people answer phones? Maybe this redundancy should be eliminated.Clearly they are not informed anyway.\nHave a blessed day!",
+      "dateCreated" : "2017-02-04",
+      "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=leuSueQ2RTDuBw1k9GjKIg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+      "replied": false
+    }
   }
-}
-
-{
-  "review": {
-    "id": 1,
-    "reviewer": {
-      "id": 842,
-      "name": "Shaunn M."
-    },
-    "source": "Yelp",
-    "rating": 5,
-    "text": "Food and service are amazing
-Rachel is the best bartender/server I've had in an nyc restaurant. You won't regret this stop.",
-    "date-created": "2017-02-01",
-    "url": "https://www.yelp.com/biz/blue-hill-new-york?hrid=XaLf1UbxfVkA0oHwdm__VQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-  }
-}
+]
