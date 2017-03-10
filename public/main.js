@@ -33,10 +33,10 @@ $(document).ready(function() {
 
     console.log(noteContent);
 
-    $.post('/reviews/review/:id/notes', noteContent, function(data) {
-      $(".unreplied").append(review(noteContent.notes, noteContent.author, noteContent.date));
+    $.post('/reviews/review/'+ event.target.dataset.id +'/notes', noteContent, function(data) {
+      // $(".unreplied").append(review(noteContent.notes, noteContent.author, noteContent.date));
 
-      console.log(data);
+      console.log('after', data);
     });
 
     event.target.notes.value = "";

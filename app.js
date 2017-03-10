@@ -15,14 +15,12 @@ app.get('/reviews', function(req, res) {
 });
 
 app.post('/reviews/review/:id/notes', function(req, res) {
-  var newNote = {};
+  
+  console.log(reviews[req.params.id].review.notes);
 
-  newNote.notes = req.params.id.notes;
+  reviews[req.params.id].review.notes.push(req.body);
 
-  reviews.push(newNote);
-
-  console.log(reviews);
-
+  res.json(reviews);
 });
 
 app.get('/*', function(req, res) {
