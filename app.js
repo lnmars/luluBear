@@ -14,6 +14,17 @@ app.get('/reviews', function(req, res) {
   res.json(reviews);
 });
 
+app.post('/reviews/review/:id/notes', function(req, res) {
+  var newNote = {};
+
+  newNote.notes = req.params.id.notes;
+
+  reviews.push(newNote);
+
+  console.log(reviews);
+
+});
+
 app.get('/*', function(req, res) {
   res.status(404).send('Error 404: Page not found');
 });
