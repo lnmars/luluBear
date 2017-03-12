@@ -63,7 +63,7 @@ div.content {
   font-style: italic;
 }
 
-div.score, div.new-reviews {
+div.score, div.unreplied-reviews {
   background-color: #FFFFFA;
   width: 25%;
   margin: 10px auto;

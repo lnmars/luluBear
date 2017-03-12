@@ -19,8 +19,8 @@ app.post('/reviews/review/:id/notes', function(req, res) {
   console.log(reviews[req.params.id].review.notes);
 
   reviews[req.params.id].review.notes.push(req.body);
-
-  res.json(reviews);
+ 
+  res.json(reviews[req.params.id].review.notes);
 });
 
 app.get('/*', function(req, res) {
