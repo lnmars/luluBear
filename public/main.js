@@ -20,21 +20,39 @@ function appendNotes(id, noteContent) {
   $('ul#'+id+'').append(noteItem);
 };
 
+function avg(reviews) {
+  var sum = 0;
+
+  for (var i in reviews) {
+    sum = sum + parseInt(reviews[i].review.rating);
+  };
+
+  var average = (sum/reviews.length).toFixed(1);
+  return average;
+};
+
+/*var numUnreplied = function (reviews) {
+  var p = $("<p></p>").text($(".unreplied").length);
+  $(".unreplied-reviews").append(p);
+}*/
+
 $(document).ready(function() {
 
   $.get('/reviews', function(reviews) {
 
     for (var i in reviews) {
       $(".list-existing-reviews").prepend(review(reviews[i].review.source, reviews[i].review.rating, reviews[i].review.dateCreated, reviews[i].review.reviewer.name, reviews[i].review.text, reviews[i].review.url, i));
-    }
+    };
+
+    $(".average").append(avg(reviews));
+
+    $(".unreplied-reviews").append($("<p></p>").text($(".unreplied").length));
   });
 
   $(".list-existing-reviews").on("submit", "form", function(event) {
     event.preventDefault();
 
     var reviewID = event.target.dataset.id;
-
-    console.log(reviewID);
 
     var noteContent = {
       "notes": event.target.notes.value,
@@ -45,7 +63,6 @@ $(document).ready(function() {
     console.log(noteContent);
 
     $.post('/reviews/review/'+ reviewID +'/notes', noteContent, function(data) {
-      // $(".unreplied").append(review(noteContent.notes, noteContent.author, noteContent.date));
 
       console.log('after', data);
     });
@@ -57,11 +74,16 @@ $(document).ready(function() {
   });
 
   $(".list-existing-reviews").on("click", "button", function(event) {
-    $("[title="+event.target.dataset.id+"]").addClass("replied");
 
-    //console.log(id);
+    console.log("# of Unreplied: " + $(".unreplied").length);
 
-    console.log(event.target.dataset.id);
+    $("[title="+event.target.dataset.id+"]").removeClass("unreplied").addClass("replied");
+
+    $(".unreplied-reviews p").text($(".unreplied").length);
+
+    console.log("# of Unreplied: " + $(".unreplied").length);
+
+    console.log("Review ID: " + event.target.dataset.id);
  });
 
 });
