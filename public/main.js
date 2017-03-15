@@ -1,15 +1,15 @@
 function review(source, rating, dateCreated, name, text, url, id) {
-  var source = $("<p></p>").text(source);
-  var rating = $("<p></p>").text(rating);
-  var date = $("<p></p>").text(dateCreated);
-  var name = $("<p></p>").text(name);
+  var source = $("<h3></h3>").text(source);
+  var rating = $("<h3></h3>").text("Rating: " + rating + "/5");
+  var date = $("<h3></h3>").text(dateCreated);
+  var name = $("<h3></h3>").text(name);
+  var repliedButton = $("<button id='replied-"+id+"' >Mark as Replied</button>").attr("data-id", id);
   var text = $("<p></p>").text(text);
   var link = $("<a target='_blank'>View Live</a>").attr("href", url);
-  var repliedButton = $("<button id='replied-"+id+"' >Mark as Replied</button>").attr("data-id", id);
-  var noteForm = $("<form><textarea name='notes' placeholder='Notes'></textarea><input type='submit' value='Save'></form>").attr("data-id", id);
+  var noteForm = $("<form><textarea name='notes' placeholder='Notes'></textarea><input type='submit' value='Save Notes'></form>").attr("data-id", id);
   var notes = $("<ul class='notes' id="+id+"></ul>");
 
-  var reviewContent = $("<div class='unreplied' title="+id+"></div>").append(source, rating, date, name, text, link, repliedButton, noteForm, notes);
+  var reviewContent = $("<div class='unreplied' title="+id+"></div>").append(source, rating, date, name, link, repliedButton, text, noteForm, notes);
 
   return reviewContent;
 };
@@ -27,7 +27,7 @@ function avg(reviews) {
     sum = sum + parseInt(reviews[i].review.rating);
   };
 
-  var average = (sum/reviews.length).toFixed(1);
+  var average = $("<p></p>").text((sum/reviews.length).toFixed(1));
   return average;
 };
 
